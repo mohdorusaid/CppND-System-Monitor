@@ -7,7 +7,7 @@
 #include "process.h"
 #include "processor.h"
 
-class System {
+class System : public Processor{
  public:
   Processor& Cpu();                   // TODO: See src/system.cpp
   std::vector<Process>& Processes();  // TODO: See src/system.cpp
